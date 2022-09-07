@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "big-data-derby-kaggle"
+version = "0.1.0"
+description = "Repo by negras for negras, to get a go at data derby competition in kaggle"
+authors = ["santiago <santiagoras101@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+kaggle = "^1.5.12"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
