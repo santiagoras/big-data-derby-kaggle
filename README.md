@@ -20,5 +20,6 @@ Now, with your terminal in ~/repo/root/bid-data-derby-kaggle exec:
 
 
 You should have now installed all the dependencies (e.g `kaggle`) to be able to run the project. Now follow the steps in [kaggle api documentation](https://www.kaggle.com/docs/api) to authenticate and then download the data for the competition.
+cmd to download data: `poetry run kaggle competitions download -c big-data-derby-2022`
 
 this .md is in WIP state, don't kill me
