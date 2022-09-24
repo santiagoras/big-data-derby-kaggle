@@ -19,3 +19,4 @@ Javier Mermet
 17:22
 (np.cumsum(a) >= warmup_distance).argmax()
 - [] If factible, segmentate race, make average of values and then pivot values into `race_info` df
+- apply Decission tree for ML
