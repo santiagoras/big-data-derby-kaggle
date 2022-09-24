@@ -11,4 +11,12 @@
 - [x]Get info about `trackus` and `ran up distance`
 - []Check if we can identify when a jockey wins a Maiden race and then participates in a Maiden race again, meaning that the horse is new
 - [x] Graphic `track_type` and `track_condition` grouping by `track_id`
-- [] To get instant velocity and tangent aceleration, we need to get the position vector, we need to check how to obtain it
+- [x] To get instant velocity and tangent aceleration, we need to get the position vector, we need to check how to obtain it
+- [] apply the following instead of iterrows
+(df.trakus_distance.cumsum() < distance_runup).argmin(p
+.argmin()
+Javier Mermet
+17:22
+(np.cumsum(a) >= warmup_distance).argmax()
+- [] If factible, segmentate race, make average of values and then pivot values into `race_info` df
+- apply Decission tree for ML
